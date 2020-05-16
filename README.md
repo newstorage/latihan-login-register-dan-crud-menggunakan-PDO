@@ -12,6 +12,8 @@ sehingga menyebabkan program menjadi error di beberapa bagian.
 3. Tugas teman-teman yaitu menemukan dan memperbaiki beberapa error tersebut, 
 kemudian setelah diperbaiki di komputer lokal harap update kembali ke repository ini.
 
+![ss](/asset/Screenshot_20200509_220428.png)
+
 Sekian tugas terakhir ini.
 
 Tetap semangat dan Semoga Sukses Selalu.
