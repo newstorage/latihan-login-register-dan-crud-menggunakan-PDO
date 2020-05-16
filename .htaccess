@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ /BELAJAR-PHP-DARI-NULL/latihan-login-register-dan-crud-menggunakan-PDO/$1.php
+#RewriteRule ^([a-z]+)\/?$ /BELAJAR-PHP-DARI-NULL/latihan-login-register-dan-crud-menggunakan-PDO/$1.php [NC]
+#RewriteRule ^(.*)$ /BELAJAR-PHP-DARI-NULL/latihan-login-register-dan-crud-menggunakan-PDO/product$1.php
+</IfModule>
