@@ -25,13 +25,15 @@ $page_title = "Read Products";
 include_once "../layout_header.php";
 
 // query products
-$stmt = $product->readAll($from_record_num, $records_per_page);
+if (!isset($_GET['s'])) {
+    $stmt = $product->readAll($from_record_num, $records_per_page);
+}
 
 // specify the page where paging is used
 $page_url = "read_template?";
 
 // count total rows - used for pagination
-$total_rows;  //isi dengan obyek function countAll
+$total_rows = $product->countAll();  //isi dengan obyek function countAll
 
 // search form
 echo "<form role='search' action='search.php'>";
@@ -47,10 +49,10 @@ echo "</form>";
 // create product button
 echo "<div class='right-button-margin'>";
 
-echo "<a href='pdf_laporan_produkk' class='btn btn-success pull-right'>";
+echo "<a href='pdf_laporan_produk' class='btn btn-success pull-right'>";
 echo "<span class='glyphicon glyphicon-print'></span> Print ";
 echo "</a>";
-echo "<a href='pdf_laporan_produk_alll' class='btn btn-warning pull-right'>";
+echo "<a href='pdf_laporan_produk_all' class='btn btn-warning pull-right'>";
 echo "<span class='glyphicon glyphicon-print'></span> Print All ";
 echo "</a>";
     echo "<ul><a href='create_product' class='btn btn-primary pull-right'>";

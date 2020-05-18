@@ -13,15 +13,15 @@
 
 
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="/BELAJAR-PHP-DARI-NULL/latihan-login-register-dan-crud-menggunakan-PDO/product/read_template">Product</a></li>
-            <li><a href="/BELAJAR-PHP-DARI-NULL/latihan-login-register-dan-crud-menggunakan-PDO/profile">Profile</a></li>
+            <li><a href="/BelajarPHP-Login-PDO/product/read_template">Product</a></li>
+            <li><a href="/BelajarPHP-Login-PDO/profile">Profile</a></li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log Out<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="">Setting</a></li>
 
                     <li role="separator" class="divider"></li>
-                    <li><a href="/BELAJAR-PHP-DARI-NULL/latihan-login-register-dan-crud-menggunakan-PDO/logout">Log Out</a></li>
+                    <li><a href="/BelajarPHP-Login-PDO/logout">Log Out</a></li>
                 </ul>
             </li>
         </ul>

@@ -12,6 +12,7 @@ $id = isset($_GET['id']) ? $_GET['id'] : die('ERROR: missing ID.');
 
 // include database and object files
 
+include_once '../database/database.php';
 include_once '../controller/product.php';
 include_once '../controller/category.php';
 

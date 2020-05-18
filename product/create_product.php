@@ -8,6 +8,7 @@ if (empty($_SESSION['user_id'])) {
 include_once '../database/database.php';
 
 include_once '../controller/product.php';
+include_once '../controller/category.php';
 
 
 // get database connection

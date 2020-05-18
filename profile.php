@@ -15,6 +15,7 @@ if (empty($_SESSION['user_id'])) {
 
 // Database connection
 require __DIR__ . '/database/database.php';
+require __DIR__ . '/controller/UserController.php';
 $database = new Database();
 $db = $database->getConnection();
 
